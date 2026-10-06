@@ -42,6 +42,13 @@ body {
     text-decoration: underline;
 }
 
+#navbar a:focus-visible,
+.project-tile:focus-visible,
+#profile-link:focus-visible {
+    outline: 3px solid #ffffff;
+    outline-offset: 3px;
+}
+
 #welcome-section {
     min-height: 100vh;
     display: flex;
@@ -168,5 +175,16 @@ body {
 
     #welcome-section p {
         font-size: 1.2rem;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .project-tile,
+    #profile-link {
+        transition: none;
+    }
+
+    .project-tile:hover {
+        transform: none;
     }
 }
