@@ -1,5 +1,6 @@
 :root {
     --accent: #be3144;
+    --accent-light: #f4b4b4;
 }
 
 * {
@@ -38,4 +39,27 @@ body {
 
 #navbar a:hover {
     text-decoration: underline;
+}
+
+#welcome-section {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #2a2a2a;
+    color: #ffffff;
+    text-align: center;
+    padding: 2rem;
+}
+
+#welcome-section h1 {
+    font-size: 4rem;
+    margin-bottom: 0.5rem;
+}
+
+#welcome-section p {
+    font-size: 1.5rem;
+    font-style: italic;
+    color: var(--accent-light);
 }
