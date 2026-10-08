@@ -1,7 +1,16 @@
 :root {
+    /* Accent */
     --accent: #be3144;
     --accent-dark: #8b2331;
     --accent-light: #f4b4b4;
+
+    /* Surfaces et textes */
+    --color-page: #f4f4f4;
+    --color-text: #333333;
+    --color-on-dark: #ffffff;
+    --surface-dark: #2a2a2a;
+    --surface-projects: #303841;
+    --tile-bg: #45567d;
 }
 
 * {
@@ -12,8 +21,8 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: var(--color-page);
+    color: var(--color-text);
     line-height: 1.6;
 }
 
@@ -55,8 +64,8 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #2a2a2a;
-    color: #ffffff;
+    background-color: var(--surface-dark);
+    color: var(--color-on-dark);
     text-align: center;
     padding: 2rem;
 }
@@ -75,8 +84,8 @@ body {
 /* Projects Section */
 #project-section {
     padding: 6rem 2rem;
-    background-color: #303841;
-    color: #ffffff;
+    background-color: var(--surface-projects);
+    color: var(--color-on-dark);
     text-align: center;
 }
 
@@ -97,11 +106,11 @@ body {
 }
 
 .project-tile {
-    background-color: #45567d;
+    background-color: var(--tile-bg);
     border-radius: 8px;
     overflow: hidden;
     text-decoration: none;
-    color: #ffffff;
+    color: var(--color-on-dark);
     transition: transform 0.3s, box-shadow 0.3s;
     display: block;
 }
@@ -133,7 +142,7 @@ body {
 #contact {
     padding: 6rem 2rem;
     text-align: center;
-    background-color: #2a2a2a;
+    background-color: var(--surface-dark);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -142,7 +151,7 @@ body {
 #contact h2 {
     font-size: 2.5rem;
     margin-bottom: 2rem;
-    color: #ffffff;
+    color: var(--color-on-dark);
 }
 
 #profile-link {
