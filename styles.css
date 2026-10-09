@@ -71,9 +71,11 @@ main:focus {
     top: 0;
     left: 0;
     width: 100%;
+    min-height: var(--nav-height);
     background-color: var(--accent);
     display: flex;
     justify-content: flex-end;
+    align-items: center;
     padding: 1rem 2rem;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
     z-index: 100;
@@ -100,6 +102,7 @@ main:focus {
 
 #welcome-section {
     min-height: 100vh;
+    min-height: 100svh;
     display: flex;
     flex-direction: column;
     justify-content: center;
