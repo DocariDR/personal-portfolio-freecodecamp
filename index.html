@@ -11,15 +11,17 @@
     <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
     <header>
-        <nav id="navbar">
+        <nav id="navbar" aria-label="Main navigation">
             <a href="#welcome-section">About</a>
             <a href="#project-section">Work</a>
             <a href="#contact">Contact</a>
         </nav>
     </header>
 
-    <main>
+    <main id="main-content" tabindex="-1">
         <section id="welcome-section">
             <h1>Hi, I'm a Web Developer</h1>
             <p>Welcome to my professional portfolio.</p>
