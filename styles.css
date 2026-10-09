@@ -11,12 +11,21 @@
     --surface-dark: #2a2a2a;
     --surface-projects: #303841;
     --tile-bg: #45567d;
+
+    /* Mise en page */
+    --nav-height: 4rem;
 }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+html {
+    /* Évite que la barre de navigation fixe masque les cibles d'ancre
+       et les éléments qui reçoivent le focus clavier (WCAG 2.4.11) */
+    scroll-padding-top: var(--nav-height);
 }
 
 body {
