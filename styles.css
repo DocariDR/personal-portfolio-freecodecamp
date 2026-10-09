@@ -11,6 +11,7 @@
     --surface-dark: #2a2a2a;
     --surface-projects: #303841;
     --tile-bg: #45567d;
+    --tile-border: #8ea3d1;
 
     /* Mise en page */
     --nav-height: 4rem;
@@ -146,6 +147,8 @@ main:focus {
 
 .project-tile {
     background-color: var(--tile-bg);
+    /* Bordure ≥ 3:1 contre le fond de section (WCAG 1.4.11) */
+    border: 2px solid var(--tile-border);
     border-radius: 8px;
     overflow: hidden;
     text-decoration: none;
