@@ -15,8 +15,13 @@ Page de portfolio personnelle en HTML et CSS, présentant trois de mes projets, 
 - **Transitions CSS** : `transition` sur `transform` et `box-shadow` pour soulever les tuiles au survol, et sur la couleur du bouton de contact.
 - **Accessibilité des animations** : un bloc `prefers-reduced-motion` désactive les transitions et le déplacement pour les personnes qui demandent moins de mouvement.
 - **Grid et Flexbox** : grille `repeat(auto-fit, minmax(250px, 1fr))` pour les tuiles, Flexbox pour la navbar et le centrage des sections.
-- **Variables CSS** : trois couleurs d'accent centralisées dans `:root`.
-- **Responsive et bases d'accessibilité** : media query à 600 px, `alt` descriptifs, `:focus-visible`, `<header>` et `<main>`, `rel="noopener noreferrer"` sur les liens externes.
+- **Variables CSS** : couleurs, surfaces et hauteur de la navbar centralisées dans `:root`.
+
+## Améliorations ajoutées au lab
+
+- Lien d'évitement, `aria-label` sur la navigation et `scroll-padding-top` pour que la navbar fixe ne masque pas les cibles.
+- Images en WebP avec `srcset`, `sizes` et `loading="lazy"`.
+- Défilement fluide activé seulement si `prefers-reduced-motion: no-preference`.
 
 ## Démo en ligne
 
@@ -41,10 +46,8 @@ Puis ouvre `index.html` dans ton navigateur.
 personal-portfolio-freecodecamp/
 ├── index.html
 ├── styles.css
+├── favicon.svg
 ├── images/
-│   ├── magazine.png
-│   ├── ferris-wheel.png
-│   └── flappy-pinguin.png
 └── README.md
 ```
 
