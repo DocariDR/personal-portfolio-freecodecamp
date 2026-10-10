@@ -20,7 +20,7 @@ Page de portfolio personnelle en HTML et CSS, présentant trois de mes projets, 
 
 ## Démo en ligne
 
-[https://docaridr.github.io/personnal-portfolio-freecodecamp/](https://docaridr.github.io/personnal-portfolio-freecodecamp/)
+[https://docaridr.github.io/personal-portfolio-freecodecamp/](https://docaridr.github.io/personal-portfolio-freecodecamp/)
 
 ## Technologies utilisées
 
@@ -29,8 +29,8 @@ HTML5 et CSS3, sans JavaScript ni bibliothèque externe.
 ## Installation locale
 
 ```bash
-git clone https://github.com/DocariDR/personnal-portfolio-freecodecamp.git
-cd personnal-portfolio-freecodecamp
+git clone https://github.com/DocariDR/personal-portfolio-freecodecamp.git
+cd personal-portfolio-freecodecamp
 ```
 
 Puis ouvre `index.html` dans ton navigateur.
@@ -38,7 +38,7 @@ Puis ouvre `index.html` dans ton navigateur.
 ## Structure des fichiers
 
 ```
-personnal-portfolio-freecodecamp/
+personal-portfolio-freecodecamp/
 ├── index.html
 ├── styles.css
 ├── images/
