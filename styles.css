@@ -102,6 +102,7 @@ main:focus {
     outline-offset: 3px;
 }
 
+/* Hero */
 #welcome-section {
     min-height: 100vh;
     min-height: 100svh;
@@ -115,12 +116,21 @@ main:focus {
     padding: 2rem;
 }
 
-#welcome-section h1 {
-    font-size: 4rem;
-    margin-bottom: 0.5rem;
+#welcome-section .eyebrow {
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    color: var(--accent-light);
+    margin-bottom: 1rem;
 }
 
-#welcome-section p {
+#welcome-section h1 {
+    font-size: 4rem;
+    line-height: 1.15;
+    margin-bottom: 0.75rem;
+}
+
+#welcome-section .hero-lead {
     font-size: 1.5rem;
     font-style: italic;
     color: var(--accent-light);
@@ -238,7 +248,7 @@ main:focus {
         font-size: 2.5rem;
     }
 
-    #welcome-section p {
+    #welcome-section .hero-lead {
         font-size: 1.2rem;
     }
 }
