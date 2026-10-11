@@ -44,6 +44,23 @@ body {
     line-height: 1.6;
 }
 
+ul {
+    list-style: none;
+}
+
+/* Texte réservé aux lecteurs d'écran */
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
 /* Lien d'évitement (WCAG 2.4.1) : visible uniquement au focus clavier */
 .skip-link {
     position: absolute;
@@ -166,7 +183,7 @@ main:focus {
     border-color: var(--accent);
 }
 
-/* Projects Section */
+/* Projets */
 #project-section {
     padding: 6rem 2rem;
     background-color: var(--surface-projects);

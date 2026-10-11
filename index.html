@@ -23,7 +23,7 @@
     <header>
         <nav id="navbar" aria-label="Main navigation">
             <a href="#welcome-section">About</a>
-            <a href="#project-section">Work</a>
+            <a href="#project-section">Projects</a>
             <a href="#contact">Contact</a>
         </nav>
     </header>
@@ -37,59 +37,68 @@
         </section>
 
         <section id="project-section">
-            <h2>Here are some of my projects</h2>
-            <div class="projects-grid">
-                <!-- Magazine -->
-                <a href="https://docaridr.github.io/magazine-freecodecamp/" class="project-tile" target="_blank" rel="noopener noreferrer">
-                    <img
-                        src="images/magazine-640.webp"
-                        srcset="images/magazine-640.webp 640w,
-                            images/magazine-1280.webp 1280w"
-                        sizes="(min-width: 1064px) 308px, (min-width: 878px) calc((100vw - 128px) / 3 - 4px), (min-width: 596px) calc((100vw - 96px) / 2 - 4px), calc(100vw - 68px)"
-                        width="640"
-                        height="349"
-                        loading="lazy"
-                        decoding="async"
-                        alt="Screenshot of the Magazine project, an article page about the new freeCodeCamp curriculum"
-                    />
-                    <h3 class="project-title">Magazine</h3>
-                    <p class="project-type">Live demo (opens in a new tab)</p>
-                </a>
+            <h2>Selected projects</h2>
+            <ul class="projects-grid">
+                <li>
+                    <a href="https://docaridr.github.io/magazine-freecodecamp/" class="project-tile" target="_blank" rel="noopener noreferrer">
+                        <img
+                            src="images/magazine-640.webp"
+                            srcset="images/magazine-640.webp 640w, images/magazine-1280.webp 1280w"
+                            sizes="(min-width: 1064px) 308px, (min-width: 878px) calc((100vw - 128px) / 3 - 4px), (min-width: 596px) calc((100vw - 96px) / 2 - 4px), calc(100vw - 68px)"
+                            width="640"
+                            height="349"
+                            loading="lazy"
+                            decoding="async"
+                            alt=""
+                        />
+                        <div class="project-body">
+                            <h3 class="project-title">Magazine</h3>
+                            <p class="project-desc">A magazine-style article page about freeCodeCamp's new curriculum.</p>
+                            <p class="project-type">Live demo <span class="visually-hidden">(opens in a new tab)</span></p>
+                        </div>
+                    </a>
+                </li>
 
-                <!-- Ferris Wheel -->
-                <a href="https://github.com/DocariDR/ferris-wheel-freecodecamp" class="project-tile" target="_blank" rel="noopener noreferrer">
-                    <img
-                        src="images/ferris-wheel-640.webp"
-                        srcset="images/ferris-wheel-640.webp 640w,
-                            images/ferris-wheel-1280.webp 1280w"
-                        sizes="(min-width: 1064px) 308px, (min-width: 878px) calc((100vw - 128px) / 3 - 4px), (min-width: 596px) calc((100vw - 96px) / 2 - 4px), calc(100vw - 68px)"
-                        width="640"
-                        height="445"
-                        loading="lazy"
-                        decoding="async"
-                        alt="Screenshot of the Ferris Wheel project, an animated ferris wheel drawn in CSS"
-                    />
-                    <h3 class="project-title">Ferris Wheel</h3>
-                    <p class="project-type">GitHub repository (opens in a new tab)</p>
-                </a>
+                <li>
+                    <a href="https://github.com/DocariDR/ferris-wheel-freecodecamp" class="project-tile" target="_blank" rel="noopener noreferrer">
+                        <img
+                            src="images/ferris-wheel-640.webp"
+                            srcset="images/ferris-wheel-640.webp 640w, images/ferris-wheel-1280.webp 1280w"
+                            sizes="(min-width: 1064px) 308px, (min-width: 878px) calc((100vw - 128px) / 3 - 4px), (min-width: 596px) calc((100vw - 96px) / 2 - 4px), calc(100vw - 68px)"
+                            width="640"
+                            height="445"
+                            loading="lazy"
+                            decoding="async"
+                            alt=""
+                        />
+                        <div class="project-body">
+                            <h3 class="project-title">Ferris Wheel</h3>
+                            <p class="project-desc">An animated ferris wheel built entirely with CSS.</p>
+                            <p class="project-type">Source on GitHub <span class="visually-hidden">(opens in a new tab)</span></p>
+                        </div>
+                    </a>
+                </li>
 
-                <!-- Flappy Penguin -->
-                <a href="https://github.com/DocariDR/flappy-pinguin-freecodecamp" class="project-tile" target="_blank" rel="noopener noreferrer">
-                    <img
-                        src="images/flappy-pinguin-640.webp"
-                        srcset="images/flappy-pinguin-640.webp 640w,
-                            images/flappy-pinguin-1049.webp 1049w"
-                        sizes="(min-width: 1064px) 308px, (min-width: 878px) calc((100vw - 128px) / 3 - 4px), (min-width: 596px) calc((100vw - 96px) / 2 - 4px), calc(100vw - 68px)"
-                        width="640"
-                        height="354"
-                        loading="lazy"
-                        decoding="async"
-                        alt="Screenshot of the Flappy Penguin project, a penguin waving, drawn in CSS"
-                    />
-                    <h3 class="project-title">Flappy Penguin</h3>
-                    <p class="project-type">GitHub repository (opens in a new tab)</p>
-                </a>
-            </div>
+                <li>
+                    <a href="https://github.com/DocariDR/flappy-pinguin-freecodecamp" class="project-tile" target="_blank" rel="noopener noreferrer">
+                        <img
+                            src="images/flappy-pinguin-640.webp"
+                            srcset="images/flappy-pinguin-640.webp 640w, images/flappy-pinguin-1049.webp 1049w"
+                            sizes="(min-width: 1064px) 308px, (min-width: 878px) calc((100vw - 128px) / 3 - 4px), (min-width: 596px) calc((100vw - 96px) / 2 - 4px), calc(100vw - 68px)"
+                            width="640"
+                            height="354"
+                            loading="lazy"
+                            decoding="async"
+                            alt=""
+                        />
+                        <div class="project-body">
+                            <h3 class="project-title">Flappy Penguin</h3>
+                            <p class="project-desc">A waving penguin illustration drawn entirely with CSS.</p>
+                            <p class="project-type">Source on GitHub <span class="visually-hidden">(opens in a new tab)</span></p>
+                        </div>
+                    </a>
+                </li>
+            </ul>
         </section>
 
         <section id="contact">
