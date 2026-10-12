@@ -290,6 +290,24 @@ main:focus {
     font-size: 1.2rem;
 }
 
+.social-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem 2rem;
+}
+
+.social-links a {
+    color: var(--accent-light);
+    font-size: 1.1rem;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
+.social-links a:hover {
+    color: var(--color-on-dark);
+}
+
 /* Footer */
 .site-footer {
     padding: 1.5rem 2rem;
