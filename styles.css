@@ -308,13 +308,17 @@ main:focus {
     color: var(--color-on-dark);
 }
 
-/* Footer */
+/* Pied de page */
 .site-footer {
     padding: 1.5rem 2rem;
     background-color: var(--surface-footer);
     color: var(--footer-text);
     text-align: center;
     font-size: 0.95rem;
+}
+
+.site-footer a {
+    color: var(--accent-light);
 }
 
 @media (max-width: 600px) {
