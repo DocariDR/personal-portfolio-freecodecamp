@@ -87,6 +87,7 @@ main:focus {
     outline: none;
 }
 
+/* Navigation fixe */
 #navbar {
     position: fixed;
     top: 0;
@@ -114,9 +115,12 @@ main:focus {
     text-decoration: underline;
 }
 
+/* Focus visible : contour blanc sur fond coloré */
 #navbar a:focus-visible,
 .project-tile:focus-visible,
-#profile-link:focus-visible {
+.button:focus-visible,
+.social-links a:focus-visible,
+.site-footer a:focus-visible {
     outline: 3px solid #ffffff;
     outline-offset: 3px;
 }
