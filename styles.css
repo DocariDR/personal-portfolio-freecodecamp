@@ -343,9 +343,10 @@ main:focus {
     }
 }
 
+/* Réduction des mouvements (WCAG 2.3.3) */
 @media (prefers-reduced-motion: reduce) {
     .project-tile,
-    #profile-link {
+    .button {
         transition: none;
     }
 
